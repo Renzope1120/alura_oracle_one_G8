@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/favicon.png" />
+    <link rel="stylesheet" href="style_new.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Amigo Secreto</title>
+</head>
+<body>
+    <header>
+        <p>Amigo Secreto</p>
+    </header>       
+    <main class="main-content">
+        <section class="section_listado">
+            <ul id="lista_amigos">
+                <p class="m-15 fw-9 fs-20">Ingresa uno a uno el nombre de tus amigos </p>
+                <p class="m-15 fw-9 fs-20">Presiona <strong>Agregar</strong> para incorporarlo la lista</p> 
+                <p class="m-15 fw-9 fs-20">Asegurate que esten todos, para que no se ofenda ninguno</p>
+                <p class="m-15 fw-9 fs-20">Presiona el boton para sortear</p>            
+            </ul>
+        </section>      
+        <section class="section_input">      
+        <div class="input_container">
+            <input type="text" id="input_name" placeholder="Ingresa un nombre..." >
+            <button type="button" id="agregarButton">Agregar</button>            
+        </div>
+        <div class="button_container">
+            <button type="button" id="button_sortear" >Sortear</button>
+        </div>
+        </section>  
+    </main>
+    <footer>
+        <img id="img_amigos" src="assets/bg_amigos.svg" alt="Imagen representativa de amigos festejando" width="100%">
+        <p>Desafío de Amigo Secreto - &copy; 2025 - Raffarraffa</p>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>
